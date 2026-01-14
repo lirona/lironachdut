@@ -66,6 +66,7 @@ body {
 
 .links a:hover {
     transform: scale(1.1);
+    animation-play-state: paused !important;
 }
 
 .links a:nth-child(1) { animation: float1 30s ease-in-out infinite; }
