@@ -39,6 +39,7 @@ body {
     padding: 1rem;
     font-weight: 700;
     background: var(--leopard);
+    background-size: 350px;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -57,6 +58,7 @@ body {
     letter-spacing: 0.1em;
     font-weight: 700;
     background: var(--leopard);
+    background-size: 350px;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
