@@ -78,6 +78,7 @@ body {
 .links a:nth-child(5) { animation: float5 38s ease-in-out infinite; }
 .links a:nth-child(6) { animation: float6 25s ease-in-out infinite; }
 .links a:nth-child(7) { animation: float7 33s ease-in-out infinite; }
+.links a:nth-child(8) { animation: float8 29s ease-in-out infinite; }
 
 @keyframes float1 {
     0%, 100% { top: 10%; left: 5%; }
@@ -126,4 +127,11 @@ body {
     25% { top: 15%; left: 15%; }
     50% { top: 80%; left: 50%; }
     75% { top: 25%; left: 80%; }
+}
+
+@keyframes float8 {
+    0%, 100% { top: 45%; left: 10%; }
+    25% { top: 75%; left: 75%; }
+    50% { top: 10%; left: 60%; }
+    75% { top: 65%; left: 20%; }
 }
